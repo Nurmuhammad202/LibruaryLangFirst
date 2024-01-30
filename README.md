@@ -1,5 +1,5 @@
 Step 1. Add the JitPack repository to your build file
-
+```
 dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
@@ -7,9 +7,10 @@ dependencyResolutionManagement {
 			maven { url 'https://jitpack.io' }
 		}
 	}
-
+```
  Step 2. Add the dependency
-
+```
  dependencies {
 	        implementation 'com.github.Nurmuhammad202:LibruaryLangFirst:1.0.0'
 	}
+```
